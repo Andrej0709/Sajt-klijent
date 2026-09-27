@@ -95,7 +95,7 @@
   }
 
   /* ---------- Radno vreme: otvoreno / zatvoreno (vreme u Beogradu) ---------- */
-  var HOURS = { 0: [9, 17], 1: [9, 17], 2: [9, 17], 3: [9, 17], 4: [9, 17], 5: [9, 17], 6: [9, 17] };
+  var HOURS = { 0: null, 1: [9, 17], 2: [9, 17], 3: [9, 17], 4: [9, 17], 5: [9, 17], 6: [9, 17] };
   var DAYS_ACC = ['nedelju', 'ponedeljak', 'utorak', 'sredu', 'četvrtak', 'petak', 'subotu'];
 
   function belgradeNow() {
