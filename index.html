@@ -54,15 +54,9 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:00",
-      "closes": "18:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "09:00",
-      "closes": "14:00"
+      "closes": "17:00"
     }
   ],
   "knowsAbout": ["Peugeot", "Citroën"],
@@ -148,7 +142,7 @@
       <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone-call"/></svg>
       +381&nbsp;64&nbsp;1200900
     </a>
-    <p>Beograd, Jajinci · Pon–Pet 08–18h · Sub 09–14h</p>
+    <p>Beograd, Jajinci · Svaki dan 09–17h</p>
   </div>
 </div>
 
@@ -166,7 +160,7 @@
       <div class="hero__copy">
         <div class="hero__meta">
           <span class="chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Beograd, Jajinci</span>
-          <span class="chip chip--status" data-status><span class="status-dot" aria-hidden="true"></span><span data-status-text>Pon–Pet 08–18h · Sub 09–14h</span></span>
+          <span class="chip chip--status" data-status><span class="status-dot" aria-hidden="true"></span><span data-status-text>Svaki dan 09–17h</span></span>
         </div>
 
         <h1 class="hero__title" id="hero-title">
@@ -189,8 +183,7 @@
         </div>
 
         <ul class="hero__facts">
-          <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span><b>Pon–Pet</b> 08–18h</span></li>
-          <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span><b>Subota</b> 09–14h</span></li>
+          <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span><b>Svaki dan</b> 09–17h</span></li>
           <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-scan"/></svg><span><b>Kompjuterska</b> dijagnostika</span></li>
         </ul>
       </div>
@@ -492,7 +485,7 @@
         <article class="card card--phone reveal" aria-labelledby="tel-title">
           <h3 class="card__label" id="tel-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Telefon · Vlada</h3>
           <a class="phone-big" href="tel:+381641200900">+381&nbsp;64&nbsp;1200900</a>
-          <p class="card__text">Najbrže je da pozovete — radnim danima od 08 do 18h, subotom od 09 do 14h.</p>
+          <p class="card__text">Najbrže je da pozovete — svakog dana od 09 do 17h.</p>
           <div class="card__actions">
             <a class="btn btn--primary" href="tel:+381641200900">
               <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Pozovi
@@ -510,9 +503,9 @@
           <h3 class="card__label" id="hours-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>Radno vreme</h3>
           <table class="hours">
             <tbody>
-              <tr data-days="1,2,3,4,5"><th scope="row">Ponedeljak – Petak</th><td>08:00 – 18:00</td></tr>
-              <tr data-days="6"><th scope="row">Subota</th><td>09:00 – 14:00</td></tr>
-              <tr data-days="0"><th scope="row">Nedelja</th><td>Zatvoreno</td></tr>
+              <tr data-days="1,2,3,4,5"><th scope="row">Ponedeljak – Petak</th><td>09:00 – 17:00</td></tr>
+              <tr data-days="6"><th scope="row">Subota</th><td>09:00 – 17:00</td></tr>
+              <tr data-days="0"><th scope="row">Nedelja</th><td>09:00 – 17:00</td></tr>
             </tbody>
           </table>
           <p class="status" data-status hidden><span class="status-dot" aria-hidden="true"></span><span data-status-text></span></p>
@@ -655,9 +648,8 @@
     <div class="footer__col">
       <h2 class="footer__title">Radno vreme</h2>
       <ul>
-        <li>Pon–Pet: 08–18h</li>
-        <li>Subota: 09–14h</li>
-        <li>Nedelja: zatvoreno</li>
+        <li>Svaki dan: 09–17h</li>
+        <li>Pon – Ned</li>
       </ul>
     </div>
   </div>

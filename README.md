@@ -7,7 +7,7 @@ Jednostrani sajt za **Auto Servis Vlada** (Beograd, Jajinci): servis i popravka 
 ## Sadržaj stranice
 
 - **Hero:** naziv servisa, slogan sa flajera, dugme za poziv i animirani „dijagnostički ekran“.
-- **Status radnog vremena uživo** („Otvoreno · radimo do 18:00“ / „Zatvoreno · otvaramo sutra u 08:00“), računa se po beogradskom vremenu.
+- **Status radnog vremena uživo** („Otvoreno · radimo do 17:00“ / „Zatvoreno · otvaramo sutra u 09:00“), računa se po beogradskom vremenu.
 - **Usluge:** kompjuterska dijagnostika, kočioni sistemi, mali i veliki servis, klima uređaji, popravke.
 - **Specijalnost:** Peugeot i Citroën, i za druga vozila.
 - **Kako radimo:** četiri koraka od poziva do preuzimanja vozila.
