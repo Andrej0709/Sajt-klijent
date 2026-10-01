@@ -896,6 +896,10 @@ button { cursor: pointer; }
   margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
   font-size: .95rem; color: var(--text-3);
 }
+.footer__legal { display: grid; gap: .35rem; }
+.footer__credit { font-size: .875rem; }
+.footer__credit a { color: var(--text-2); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: .2em; transition: color .2s, text-decoration-color .2s; }
+.footer__credit a:hover { color: #fff; text-decoration-color: currentColor; }
 .to-top { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; color: var(--text-2); transition: color .2s; }
 .to-top:hover { color: #fff; }
 .to-top .icon { width: 18px; height: 18px; }
